@@ -1,0 +1,622 @@
+ticker,company_name,region
+A,Agilent Technologies Inc.,US
+AAL,American Airlines Group Inc.,US
+AAPL,Apple Inc.,US
+ABBV,AbbVie Inc.,US
+ABI.BR,Anheuser-Busch InBev SA/NV,Europe
+ABT,Abbott Laboratories,US
+ACN,Accenture PLC Class A,US
+ADBE,Adobe Inc.,US
+ADI,Analog Devices Inc.,US
+ADS.DE,Adidas AG,Europe
+ADYEN.AS,Adyen NV,Europe
+AEE,Ameren Corp.,US
+AEP,American Electric Power Company Inc.,US
+AES,AES Corp.,US
+AFL,Aflac Inc.,US
+AIG,American International Group Inc.,US
+AI.PA,L'Air Liquide SA,Europe
+AIZ,Assurant Inc.,US
+AJG,Arthur J. Gallagher & Co.,US
+AKAM,Akamai Technologies Inc.,US
+ALB,Albemarle Corp.,US
+ALC,Alcon Inc.,International
+ALGN,Align Technology Inc.,US
+ALK,Alaska Air Group Inc.,US
+ALL,Allstate Corp.,US
+ALLE,Allegion PLC,US
+ALV.DE,Allianz SE,Europe
+AMAT,Applied Materials Inc.,US
+AMCR,Amcor PLC,US
+AME,AMETEK Inc.,US
+AMGN,Amgen Inc.,US
+AMP,Ameriprise Financial Inc.,US
+AMP.MI,Amplifon S.p.A.,Europe
+AMT,American Tower Corp.,US
+AMZN,Amazon.com Inc.,US
+ANET,Arista Networks Inc.,US
+ANSS,ANSYS Inc.,US
+AON,Aon PLC Class A,US
+AOS,A. O. Smith Corp.,US
+APA,APA Corp.,US
+APD,Air Products and Chemicals Inc.,US
+APH,Amphenol Corp.,US
+APO,Apollo Global Management,US
+APTV,Aptiv PLC,US
+ARE,Alexandria Real Estate Equities Inc.,US
+ASML.AS,ASML Holding NV,Europe
+ATO,Atmos Energy Corp.,US
+AVB,AvalonBay Communities Inc.,US
+AVGO,Broadcom Inc.,US
+AWK,American Water Works Company Inc.,US
+AXP,American Express Co.,US
+AXON,Axon Enterprise Inc.,US
+AZM.MI,Azimut Holding S.p.A.,Europe
+AZN,AstraZeneca PLC,International
+AZO,AutoZone Inc.,US
+A2A.MI,A2A S.p.A.,Europe
+BA,Boeing Co.,US
+BABA,Alibaba Group Holding Ltd.,International
+BAC,Bank of America Corp,US
+BALL,Ball Corp.,US
+BAMI.MI,Banco BPM S.p.A.,Europe
+BAS.DE,BASF SE,Europe
+BAX,Baxter International Inc.,US
+BAYN.DE,Bayer AG,Europe
+BBWI,Bath & Body Works Inc.,US
+BBVA.MC,Banco Bilbao Vizcaya Argentaria, S.A.,Europe
+BCE,BCE Inc.,International
+BDX,Becton Dickinson and Co.,US
+BEN,Franklin Resources Inc.,US
+BF-B,Brown-Forman Corp.,US
+BG,Bunge Global SA,US
+BGN.MI,Banca Generali S.p.A.,Europe
+BHP,BHP Group Ltd,International
+BIIB,Biogen Inc.,US
+BIO,Bio-Rad Laboratories Inc.,US
+BK,Bank of New York Mellon Corp.,US
+BKNG,Booking Holdings Inc.,US
+BKR,Baker Hughes Co.,US
+BLK,BlackRock Inc.,US
+BMO,Bank of Montreal,International
+BMPS.MI,Banca Monte dei Paschi di Siena S.p.A.,Europe
+BMW.DE,Bayerische Motoren Werke AG,Europe
+BNP.PA,BNP Paribas SA,Europe
+BNS,Bank of Nova Scotia,International
+BN.PA,Danone SA,Europe
+BPE.MI,BPER Banca S.p.A.,Europe
+BRK-A,Berkshire Hathaway Inc. Class A,US
+BRK-B,Berkshire Hathaway Inc. Class B,US
+BSX,Boston Scientific Corp.,US
+BTI,British American Tobacco PLC,International
+BUD,Anheuser-Busch InBev SA/NV,International
+BWA,BorgWarner Inc.,US
+BXP,Boston Properties Inc.,US
+BYD,Boyd Gaming Corp.,US
+BZU.MI,Buzzi Unicem S.p.A.,Europe
+C,Citigroup Inc.,US
+CABK.MC,CaixaBank, S.A.,Europe
+CAG,Conagra Brands Inc.,US
+CAH,Cardinal Health Inc.,US
+CARR,Carrier Global Corp.,US
+CAT,Caterpillar Inc.,US
+CBA.AX,Commonwealth Bank of Australia,International
+CBOE,Cboe Global Markets Inc.,US
+CBRE,CBRE Group Inc.,US
+CB,Chubb Ltd.,US
+CCI,Crown Castle Inc.,US
+CCL,Carnival Corp.,US
+CDNS,Cadence Design Systems Inc.,US
+CDW,CDW Corp.,US
+CEG,Constellation Energy Corp.,US
+CE,Celanese Corp.,US
+CFG,Citizens Financial Group Inc.,US
+CF,CF Industries Holdings Inc.,US
+CHD,Church & Dwight Co. Inc.,US
+CHRW,C.H. Robinson Worldwide Inc.,US
+CHT,Chunghwa Telecom Co. Ltd.,International
+CHTR,Charter Communications Inc.,US
+CIB,BanColombia SA,International
+CI,Cigna Group,US
+CINF,Cincinnati Financial Corp.,US
+CL,Colgate-Palmolive Co.,US
+CLX,Clorox Co.,US
+CMA,Comerica Inc.,US
+CMCSA,Comcast Corp.,US
+CME,CME Group Inc.,US
+CMG,Chipotle Mexican Grill Inc.,US
+CMI,Cummins Inc.,US
+CMS,CMS Energy Corp.,US
+CNC,Centene Corp.,US
+CNI,Canadian National Railway Co.,International
+CNP,CenterPoint Energy Inc.,US
+COF,Capital One Financial Corp.,US
+COO,Cooper Companies Inc.,US
+COP,ConocoPhillips,US
+COR,Cencora Inc,US
+COST,Costco Wholesale Corp.,US
+CPAY,FleetCor Technologies Inc.,US
+CPB,Campbell Soup Co.,US
+CPR.MI,Credito Emiliano S.p.A.,Europe
+CPRT,Copart Inc.,US
+CPT,Camden Property Trust,US
+CRH.L,CRH PLC,Europe
+CRL,Charles River Laboratories International Inc.,US
+CRM,Salesforce Inc.,US
+CRWD,CrowdStrike Holdings Inc.,US
+CSCO,Cisco Systems Inc.,US
+CSGP,CoStar Group Inc.,US
+CSL.AX,CSL Ltd.,International
+CS.PA,AXA SA,Europe
+CSX,CSX Corp.,US
+CTAS,Cintas Corp.,US
+CTRA,Coterra Energy Inc.,US
+CTSH,Cognizant Technology Solutions Corp.,US
+CTVA,Corteva Inc.,US
+CVS,CVS Health Corp.,US
+CVX,Chevron Corp.,US
+D,Dominion Energy Inc.,US
+DAL,Delta Air Lines Inc.,US
+DASH,DoorDash Inc.,US
+DAY,Dayforce Inc.,US
+DB1.DE,Deutsche Boerse AG,Europe
+DBK.DE,Deutsche Bank AG,Europe
+DD,DuPont de Nemours Inc.,US
+DECK,Deckers Outdoor Corp.,US
+DELL,Dell Technologies Inc.,US
+DEO,Diageo PLC,International
+DE,Deere & Co.,US
+DG,Dollar General Corp.,US
+DG.PA,Vinci SA,Europe
+DGX,Quest Diagnostics Inc.,US
+DHI,D.R. Horton Inc.,US
+DHR,Danaher Corp.,US
+DHL.DE,Deutsche Post AG,Europe
+DIA.MI,Diasorin S.p.A.,Europe
+DIS,Walt Disney Co.,US
+DLR,Digital Realty Trust Inc.,US
+DLTR,Dollar Tree Inc.,US
+DOV,Dover Corp.,US
+DOW,Dow Inc.,US
+DPZ,Domino's Pizza Inc.,US
+DRI,Darden Restaurants Inc.,US
+DTE,DTE Energy Co.,US
+DTE.DE,Deutsche Telekom AG,Europe
+DUK,Duke Energy Corp.,US
+DVA,DaVita Inc.,US
+DVN,Devon Energy Corp.,US
+DXC,DXC Technology Co.,US
+DXCM,DexCom Inc.,US
+EA,Electronic Arts Inc.,US
+EBAY,eBay Inc.,US
+ECL,Ecolab Inc.,US
+ED,Consolidated Edison Inc.,US
+EFX,Equifax Inc.,US
+EIX,Edison International,US
+EL,Estee Lauder Companies Inc.,US
+EL.PA,EssilorLuxottica SA,Europe
+ELV,Elevance Health Inc.,US
+EMN,Eastman Chemical Co.,US
+EMR,Emerson Electric Co.,US
+ENB,Enbridge Inc.,US
+ENEL.MI,Enel SpA,Europe
+ENGI.PA,Engie SA,Europe
+ENI.MI,Eni SpA,Europe
+EOAN.DE,E.ON SE,Europe
+EOG,EOG Resources Inc.,US
+EPAM,EPAM Systems Inc.,US
+EPD,Enterprise Products Partners L.P.,US
+EQIX,Equinix Inc.,US
+EQR,Equity Residential,US
+EQT,EQT Corp.,US
+ERG.MI,ERG S.p.A.,Europe
+ERIC,Ericsson,International
+ERIE,Erie Indemnity Co.,US
+ES,Eversource Energy,US
+ESS,Essex Property Trust Inc.,US
+ETN,Eaton Corp. PLC,US
+ETR,Entergy Corp.,US
+ETSY,Etsy Inc.,US
+ET,Energy Transfer LP,US
+EVRG,Evergy Inc.,US
+EW,Edwards Lifesciences Corp.,US
+EXC,Exelon Corp.,US
+EXPD,Expeditors International of Washington Inc.,US
+EXPE,Expedia Group Inc.,US
+EXR,Extra Space Storage Inc.,US
+F,Ford Motor Co.,US
+FANG,Diamondback Energy Inc.,US
+FAST,Fastenal Co.,US
+FBK.MI,FinecoBank Banca Fineco S.p.A.,Europe
+FCX,Freeport-McMoRan Inc.,US
+FDS,FactSet Research Systems Inc.,US
+FDX,FedEx Corp.,US
+FE,FirstEnergy Corp.,US
+FFIV,F5 Inc.,US
+FICO,Fair Isaac Corp.,US
+FIS,Fidelity National Information Services Inc.,US
+FI,Fiserv Inc.,US
+FITB,Fifth Third Bancorp,US
+FLTR.L,Flutter Entertainment PLC,Europe
+FMC,FMC Corp.,US
+FMX,Fomento Economico Mexicano SAB de CV,International
+FOXA,Fox Corp. Class A,US
+FOX,Fox Corp. Class B,US
+FRE.DE,Fresenius SE & Co. KGaA,Europe
+FRT,Federal Realty Investment Trust,US
+FSLR,First Solar Inc.,US
+FTNT,Fortinet Inc.,US
+FTV,Fortive Corp.,US
+GD,General Dynamics Corp.,US
+GEHC,GE HealthCare Technologies Inc.,US
+GEN,Gen Digital Inc.,US
+GEV,GE Vernova,US
+GE,General Electric Co.,US
+GILD,Gilead Sciences Inc.,US
+GIS,General Mills Inc.,US
+GLE.PA,Societe Generale,Europe
+GLEN.L,Glencore PLC,International
+GLW,Corning Inc.,US
+GL,Globe Life Inc.,US
+GM,General Motors Co.,US
+GNRC,Generac Holdings Inc.,US
+GPC,Genuine Parts Co.,US
+GPN,Global Payments Inc.,US
+GRMN,Garmin Ltd.,US
+GS,Goldman Sachs Group Inc.,US
+GWW,W.W. Grainger Inc.,US
+G.MI,Assicurazioni Generali S.p.A.,Europe
+HAL,Halliburton Co.,US
+HAS,Hasbro Inc.,US
+HBAN,Huntington Bancshares Inc.,US
+HCA,HCA Healthcare Inc.,US
+HDB,HDFC Bank Ltd.,International
+HD,Home Depot Inc.,US
+HEN3.DE,Henkel AG & Co. KGaA,Europe
+HER.MI,Hera S.p.A.,Europe
+HES,Hess Corp.,US
+HIG,Hartford Financial Services Group Inc.,US
+HII,Huntington Ingalls Industries Inc.,US
+HLT,Hilton Worldwide Holdings Inc.,US
+HMY,Harmony Gold Mining Co. Ltd.,International
+HOLX,Hologic Inc.,US
+HON,Honeywell International Inc.,US
+HPE,Hewlett Packard Enterprise Co.,US
+HPQ,HP Inc.,US
+HRL,Hormel Foods Corp.,US
+HSBC,HSBC Holdings PLC,International
+HSIC,Henry Schein Inc.,US
+HST,Host Hotels & Resorts Inc.,US
+HSY,Hershey Co.,US
+HUBB,Hubbell Inc.,US
+HUM,Humana Inc.,US
+HWM,Howmet Aerospace Inc.,US
+IBM,International Business Machines Corp.,US
+IBE.MC,Iberdrola SA,Europe
+IBN,ICICI Bank Ltd.,International
+ICE,Intercontinental Exchange Inc.,US
+IDXX,IDEXX Laboratories Inc.,US
+IEX,IDEX Corp.,US
+IFF,International Flavors & Fragrances Inc.,US
+IFX.DE,Infineon Technologies AG,Europe
+IG.MI,Italgas S.p.A.,Europe
+ILMN,Illumina Inc.,US
+IMO,Imperial Oil Ltd.,International
+INCY,Incyte Corp.,US
+INFY,Infosys Ltd.,International
+INGA.AS,ING Groep NV,Europe
+INGR,Ingredion Inc.,US
+INW.MI,Inwit S.p.A.,Europe
+IPG,Interpublic Group of Companies Inc.,US
+IP,International Paper Co.,US
+IP.MI,Intesa Sanpaolo S.p.A.,Europe
+IQV,IQVIA Holdings Inc.,US
+IRM,Iron Mountain Inc.,US
+IR,Ingersoll Rand Inc.,US
+ISRG,Intuitive Surgical Inc.,US
+IT,Gartner Inc.,US
+ITUB,Itau Unibanco Holding SA,International
+ITW,Illinois Tool Works Inc.,US
+ITX.MC,Industria de Diseno Textil SA,Europe
+IVZ,Invesco Ltd.,US
+JBL,Jabil Inc.,US
+JCI,Johnson Controls International PLC,US
+J,Jacobs Solutions Inc.,US
+JKHY,Jack Henry & Associates Inc.,US
+JNJ,Johnson & Johnson,US
+JNPR,Juniper Networks Inc.,US
+JPM,JPMorgan Chase & Co.,US
+K,Kellanova,US
+KB,KB Financial Group Inc.,International
+KDP,Keurig Dr Pepper Inc.,US
+KER.PA,Kering SA,Europe
+KEY,KeyCorp,US
+KHC,Kraft Heinz Co.,US
+KIM,Kimco Realty Corp.,US
+KLAC,KLA Corp.,US
+KMB,Kimberly-Clark Corp.,US
+KMI,Kinder Morgan Inc.,US
+KMX,CarMax Inc.,US
+KO,Coca-Cola Co.,US
+KOF,Coca-Cola FEMSA SAB de CV,International
+KR,Kroger Co.,US
+KVUE,Kenvue Inc.,US
+LDOS,Leidos Holdings Inc.,US
+LEN,Lennar Corp.,US
+CILJF,China Life Insurance Co. Ltd.,International
+LH,Labcorp Holdings Inc.,US
+LHX,L3Harris Technologies Inc.,US
+LIN,Linde PLC,US
+LKQ,LKQ Corp.,US
+LLY,Eli Lilly & Co.,US
+LMT,Lockheed Martin Corp.,US
+LNT,Alliant Energy Corp.,US
+LOW,Lowe's Companies Inc.,US
+LRCX,Lam Research Corp.,US
+LU,Lufax Holding Ltd,International
+LULU,Lululemon Athletica Inc.,US
+LUV,Southwest Airlines Co.,US
+LVS,Las Vegas Sands Corp.,US
+LW,Lamb Weston Holdings Inc.,US
+LYB,LyondellBasell Industries NV,US
+LYV,Live Nation Entertainment Inc.,US
+L,Loews Corp.,US
+MAA,Mid-America Apartment Communities Inc.,US
+MAR,Marriott International Inc.,US
+MAS,Masco Corp.,US
+MA,Mastercard Inc. Class A,US
+MBG.DE,Mercedes-Benz Group AG,Europe
+MB.MI,Mediobanca Banca di Credito Finanziario S.p.A.,Europe
+MCD,McDonald's Corp.,US
+MCHP,Microchip Technology Inc.,US
+MCK,McKesson Corp.,US
+MCO,Moody's Corp.,US
+MC.PA,LVMH Moet Hennessy Louis Vuitton SE,Europe
+MDLZ,Mondelez International Inc.,US
+MDT,Medtronic PLC,US
+MET,MetLife Inc.,US
+META,Meta Platforms Inc.,US
+MFC,Manulife Financial Corp.,International
+MGM,MGM Resorts International,US
+MHK,Mohawk Industries Inc.,US
+MKC,McCormick & Co. Inc.,US
+MKTX,MarketAxess Holdings Inc.,US
+MLM,Martin Marietta Materials Inc.,US
+MMC,Marsh & McLennan Companies Inc.,US
+MMM,3M Co.,US
+MNST,Monster Beverage Corp.,US
+MOH,Molina Healthcare Inc.,US
+MOS,Mosaic Co.,US
+MPWR,Monolithic Power Systems Inc.,US
+MRK,Merck & Co. Inc.,US
+MRNA,Moderna Inc.,US
+MPC,Marathon Oil Corp.,US
+MSCI,MSCI Inc.,US
+MSFT,Microsoft Corp.,US
+MSI,Motorola Solutions Inc.,US
+MS,Morgan Stanley,US
+MTB,M&T Bank Corp.,US
+MTD,Mettler-Toledo International Inc.,US
+MUR,Murphy Oil Corp.,US
+MUV2.DE,Muenchener Rueckversicherungs-Gesellschaft AG in Muenchen,Europe
+MU,Micron Technology Inc.,US
+NAB.AX,National Australia Bank Ltd.,International
+NDAQ,Nasdaq Inc.,US
+NDSN,Nordson Corp.,US
+NEE,NextEra Energy Inc.,US
+NEM,Newmont Corp.,US
+NI,NiSource Inc.,US
+NKE,NIKE Inc.,US
+NOC,Northrop Grumman Corp.,US
+NOKIA.HE,Nokia Oyj,Europe
+NRG,NRG Energy Inc.,US
+NSC,Norfolk Southern Corp.,US
+NTAP,NetApp Inc.,US
+NTES,NetEase Inc.,International
+NTRS,Northern Trust Corp.,US
+NUE,Nucor Corp.,US
+NVO,Novo Nordisk A/S Class B,International
+NVR,NVR Inc.,US
+NVS,Novartis AG,International
+NWSA,News Corp Class A,US
+NWS,News Corp Class B,US
+NXPI,NXP Semiconductors NV,US
+ODFL,Old Dominion Freight Line Inc.,US
+OGN,Organon & Co.,US
+OKE,ONEOK Inc.,US
+OMC,Omnicom Group Inc.,US
+ON,ON Semiconductor Corp.,US
+ORCL,Oracle Corp.,US
+ORLY,O'Reilly Automotive Inc.,US
+OR.PA,L'Oreal SA,Europe
+OXY,Occidental Petroleum Corp.,US
+O,Realty Income Corp.,US
+PAA,Plains All American Pipeline, L.P.,US
+PANW,Palo Alto Networks Inc.,US
+PARA,Paramount Global,US
+PAYC,Paycom Software Inc.,US
+PAYX,Paychex Inc.,US
+PCAR,PACCAR Inc.,US
+PCG,PG&E Corp.,US
+PEG,Public Service Enterprise Group Inc.,US
+PEP,PepsiCo Inc.,US
+PFE,Pfizer Inc.,US
+PFG,Principal Financial Group Inc.,US
+PG,Procter & Gamble Co.,US
+PGR,Progressive Corp.,US
+PHM,PulteGroup Inc.,US
+PH,Parker-Hannifin Corp.,US
+PHIA.AS,Koninklijke Philips NV,Europe
+PKG,Packaging Corp of America,US
+PLD,Prologis Inc.,US
+PLTR,Palantir Technologies Inc.,US
+PM,Philip Morris International Inc.,US
+PNC,PNC Financial Services Group Inc.,US
+PNR,Pentair PLC,US
+PNW,Pinnacle West Capital Corp.,US
+PODD,Insulet Corp.,US
+POOL,Pool Corp.,US
+PPG,PPG Industries Inc.,US
+PPL,PPL Corp.,US
+PRU,Prudential Financial Inc.,US
+PSA,Public Storage,US
+PST.MI,Poste Italiane S.p.A.,Europe
+PSX,Phillips 66,US
+PTC,PTC Inc.,US
+PUK,Prudential PLC,International
+PWR,Quanta Services Inc.,US
+PYPL,PayPal Holdings Inc.,US
+QCOM,QUALCOMM Inc.,US
+QRVO,Qorvo Inc.,US
+RACE.MI,Ferrari NV,Europe
+RCL,Royal Caribbean Group,US
+REGN,Regeneron Pharmaceuticals Inc.,US
+REG,Regency Centers Corp.,US
+REL.L,RELX PLC,International
+REP.MC,Repsol, S.A.,Europe
+RF,Regions Financial Corp.,US
+RHI,Robert Half Inc.,US
+RIO,Rio Tinto PLC,International
+RI.PA,Pernod Ricard SA,Europe
+RJF,Raymond James Financial Inc.,US
+RL,Ralph Lauren Corp.,US
+RMD,ResMed Inc.,US
+RMS.PA,Hermes International SCA,Europe
+RNO.PA,Renault SA,Europe
+ROK,Rockwell Automation Inc.,US
+ROL,Rollins Inc.,US
+ROP,Roper Technologies Inc.,US
+ROST,Ross Stores Inc.,US
+RRC,Range Resources Corp.,US
+RSG,Republic Services Inc.,US
+RTX,RTX Corp,US
+RVTY,Revvity Inc.,US
+RWE.DE,RWE AG,Europe
+RY,Royal Bank of Canada,International
+SAF.PA,Safran SA,Europe
+SAN.MC,Banco Santander, S.A.,Europe
+SAN.PA,Sanofi,Europe
+SAP.DE,SAP SE,Europe
+SBAC,SBA Communications Corp.,US
+SBUX,Starbucks Corp.,US
+SCHW,Charles Schwab Corp.,US
+SEE,Sealed Air Corp.,US
+SGO.PA,Compagnie de Saint-Gobain SA,Europe
+SHEL,Shell PLC,International
+SHW,Sherwin-Williams Co.,US
+SIE.DE,Siemens AG,Europe
+SJM,J.M. Smucker Co.,US
+SLB,Schlumberger Ltd.,US
+SNA,Snap-on Inc.,US
+SNPS,Synopsys Inc.,US
+SONY,Sony Group Corp.,International
+SO,Southern Co.,US
+SPG,Simon Property Group Inc.,US
+SPGI,S&P Global Inc.,US
+SPM.MI,Saipem S.p.A.,Europe
+SRE,Sempra Energy,US
+SRG.MI,Snam S.p.A.,Europe
+STE,Steris PLC,US
+STLA,Stellantis NV,International
+STM,STMicroelectronics N.V.,Europe
+STT,State Street Corp.,US
+STX,Seagate Technology Holdings PLC,US
+STZ,Constellation Brands Inc.,US
+SU.PA,Schneider Electric SE,Europe
+SWK,Stanley Black & Decker Inc.,US
+SWKS,Skyworks Solutions Inc.,US
+SYF,Synchrony Financial,US
+SYK,Stryker Corp.,US
+SYY,Sysco Corp.,US
+TAP,Molson Coors Beverage Co.,US
+TCEHY,Tencent Holdings Ltd.,International
+TDG,TransDigm Group Inc.,US
+TD,Toronto-Dominion Bank,International
+TDY,Teledyne Technologies Inc.,US
+TECH,Bio-Techne Corp.,US
+TEF.MC,Telefónica, S.A.,Europe
+TEL,TE Connectivity Ltd.,US
+TEN.MI,Tenaris S.A.,Europe
+TER,Teradyne Inc.,US
+TFC,Truist Financial Corp.,US
+TFX,Teleflex Inc.,US
+TGT,Target Corp.,US
+TJX,TJX Companies Inc.,US
+TMO,Thermo Fisher Scientific Inc.,US
+TM,Toyota Motor Corp.,International
+TMUS,T-Mobile US Inc.,US
+TPR,Tapestry Inc.,US
+TRGP,Targa Resources Corp.,US
+TRI,Thomson Reuters Corp.,International
+TRMB,Trimble Inc.,US
+TRN.MI,Terna - Rete Elettrica Nazionale Società per Azioni,Europe
+TROW,T. Rowe Price Group Inc.,US
+TRP,TC Energy Corp.,US
+TRV,Travelers Companies Inc.,US
+TSCO,Tractor Supply Co.,US
+TSLA,Tesla Inc,US
+TSM,Taiwan Semiconductor Manufacturing Co. Ltd.,International
+TTE.PA,TotalEnergies SE,Europe
+TT,Trane Technologies PLC,US
+TTWO,Take-Two Interactive Software Inc.,US
+TXN,Texas Instruments Inc.,US
+TXT,Textron Inc.,US
+TYL,Tyler Technologies Inc.,US
+T,AT&T Inc.,US
+UAL,United Airlines Holdings Inc.,US
+UBS,UBS Group AG,International
+UBER,Uber Technologies Inc.,US
+UCG.MI,UniCredit S.p.A.,Europe
+UDR,UDR Inc.,US
+UHS,Universal Health Services Inc.,US
+UL,Unilever PLC,International
+ULTA,Ulta Beauty Inc.,US
+UNH,UnitedHealth Group Inc.,US
+UNP,Union Pacific Corp.,US
+UPS,United Parcel Service Inc.,US
+URI,United Rentals Inc.,US
+USB,U.S. Bancorp,US
+VALE,Vale SA,International
+VFC,V.F. Corp.,US
+VICI,VICI Properties Inc.,US
+VLO,Valero Energy Corp.,US
+VLTO,Veralto Corp.,US
+VMC,Vulcan Materials Co.,US
+VNA.DE,Vonovia SE,Europe
+VRSK,Verisk Analytics Inc.,US
+VRSN,VeriSign Inc.,US
+VRTX,Vertex Pharmaceuticals Inc.,US
+VTR,Ventas Inc.,US
+VTRS,Viatris Inc.,US
+VOW3.DE,Volkswagen AG,Europe
+V,Visa Inc.,US
+VZ,Verizon Communications Inc.,US
+WAB,Westinghouse Air Brake Technologies Corp.,US
+WAT,Waters Corp.,US
+WBA,Walgreens Boots Alliance Inc.,US
+WBD,Warner Bros. Discovery Inc.,US
+WCN,Waste Connections Inc.,US
+WDC,Western Digital Corp.,US
+WDS.AX,Woodside Energy Group Ltd,International
+WEC,WEC Energy Group Inc.,US
+WELL,Welltower Inc.,US
+WES,Western Midstream Partners, LP,US
+WES.AX,Wesfarmers Ltd.,International
+WFC,Wells Fargo & Co.,US
+WHR,Whirlpool Corp.,US
+WM,Waste Management Inc.,US
+WMB,Williams Companies Inc.,US
+WMT,Walmart Inc.,US
+WRB,W. R. Berkley Corp.,US
+WST,West Pharmaceutical Services Inc.,US
+WTW,Willis Towers Watson Public Ltd Co,US
+WYNN,Wynn Resorts Ltd.,US
+WY,Weyerhaeuser Co.,US
+XEL,Xcel Energy Inc.,US
+XOM,Exxon Mobil Corp.,US
+XRAY,Dentsply Sirona Inc.,US
+XYL,Xylem Inc.,US
+YUM,Yum! Brands Inc.,US
+ZBH,Zimmer Biomet Holdings Inc.,US
+ZBRA,Zebra Technologies Corp.,US
+ZTS,Zoetis Inc.,US
