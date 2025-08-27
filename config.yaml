@@ -16,10 +16,10 @@ data_source:
 rules:
   entry:
     drop_lookback_days: 10 #10
-    min_drop_pct: 15 #15
+    min_drop_pct: 10 #15
     rsi_period: 14 #14
-    rsi_max_to_buy: 30.0 #30
-    sma_window: 50 #50
+    rsi_max_to_buy: 60.0 #30
+    sma_window: 20 #50
     zscore_max_to_buy: -2 #-2
 
   exit:

@@ -1,4 +1,4 @@
-# src/build_signals_range.py — FAST signals builder (strict tickers, with market_cap)
+# src/build_signals_range.py — FAST signals builder (strict tickers, with market_cap & confidence)
 # - One download per ticker for the whole range (+lookback buffer)
 # - Optional parquet cache (.cache/prices)
 # - Vectorized indicators once per ticker
@@ -20,8 +20,7 @@ import yaml
 
 from src.util import read_watchlist
 from src.indicators import rsi, zscore, pct_drop_over_n
-from src.rules import evaluate_entry
-
+from src.rules import evaluate_entry, compute_confidence  # confidence same as engine.py
 
 SIGNAL_HEADER = [
     "timestamp",
@@ -34,14 +33,13 @@ SIGNAL_HEADER = [
     "rule_id",
     "notes",
     "market_cap",
+    "confidence",  # NEW: top-level column for easy consumption
 ]
-
 
 # ---------- helpers ----------
 
 def _ensure_dir(p: str) -> None:
     os.makedirs(os.path.dirname(p) or ".", exist_ok=True)
-
 
 def _infer_lookback_days(cfg: dict, default: int = 250, extra: int = 10) -> int:
     """
@@ -56,11 +54,9 @@ def _infer_lookback_days(cfg: dict, default: int = 250, extra: int = 10) -> int:
     need_plus = need + extra
     return max(default, need_plus)
 
-
 def _read_config(path: str) -> dict:
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
-
 
 def _download_batch(tickers: List[str], start: str, end: str) -> pd.DataFrame:
     """
@@ -76,7 +72,6 @@ def _download_batch(tickers: List[str], start: str, end: str) -> pd.DataFrame:
         threads=True,
         group_by="ticker",
     )
-
 
 def _split_multiindex_batch(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
     """
@@ -97,9 +92,10 @@ def _split_multiindex_batch(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
                 sub = sub.rename(columns={"Adj Close": "Close"})
             keep = [c for c in ["Open", "High", "Low", "Close", "Volume"] if c in sub.columns]
             sub = sub[keep].dropna(subset=["Close"])
-            out[t] = sub
+            if not sub.empty:
+                out[t] = sub
     else:
-        # Single-ticker DataFrame
+        # single ticker returned
         sub = df.copy()
         sub.index = pd.to_datetime(sub.index)
         cols = {c: str(c).title() for c in sub.columns}
@@ -111,10 +107,8 @@ def _split_multiindex_batch(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
         out["__single__"] = sub
     return out
 
-
 def _cache_path(cache_dir: str, ticker: str, start: str, end: str) -> str:
     return os.path.join(cache_dir, f"{ticker}_{start}_{end}_1d.parquet")
-
 
 def _get_prices_for_range(
     tickers: List[str],
@@ -196,7 +190,6 @@ def _get_prices_for_range(
 
     return out
 
-
 def _compute_indicators_inplace(df: pd.DataFrame, entry_cfg: dict) -> None:
     """
     Compute the handful of indicators your evaluate_entry() typically needs.
@@ -208,7 +201,6 @@ def _compute_indicators_inplace(df: pd.DataFrame, entry_cfg: dict) -> None:
     df[f"RSI{rsi_p}"] = rsi(df["Close"], period=rsi_p)
     df[f"Z{sma_w}"] = zscore(df["Close"], window=sma_w)
     df[f"DROP{drop_n}"] = pct_drop_over_n(df["Close"], n=drop_n)
-
 
 def _get_market_caps(tickers: List[str]) -> Dict[str, Optional[float]]:
     """
@@ -231,7 +223,6 @@ def _get_market_caps(tickers: List[str]) -> Dict[str, Optional[float]]:
             mc = None
         out[t] = mc
     return out
-
 
 # ---------- main fast builder ----------
 
@@ -256,6 +247,7 @@ def main():
     # Read config and entry rule
     cfg = _read_config(args.config)
     entry_cfg = cfg.get("rules", {}).get("entry", {})
+    conf_cfg  = cfg.get("confidence", {})  # NEW: confidence knobs (weights, caps, penalties)
 
     # Universe (strict: do NOT touch/normalize tickers)
     watchlist_path = cfg.get("universe", {}).get("watchlist_csv", "watchlist.csv")
@@ -339,7 +331,15 @@ def main():
             last = df_d.iloc[-1]
             close = float(last["Close"])
 
-            # Optional values blob (kept small & cheap)
+            # --- Confidence (same philosophy as engine.py; no look-ahead) ---
+            try:
+                C, comps = compute_confidence(df_d, entry_cfg, conf_cfg)
+                C_val = float(C)
+            except Exception:
+                C_val = float("nan")
+                comps = {}
+
+            # values blob stays compact but includes metrics & confidence
             values_blob = {}
             try:
                 rsi_p = int(entry_cfg.get("rsi_period", 14) or 14)
@@ -349,9 +349,12 @@ def main():
                     "rsi": float(last.get(f"RSI{rsi_p}", float("nan"))),
                     "drop_pct": float(last.get(f"DROP{drop_n}", float("nan"))),
                     "zscore": float(last.get(f"Z{sma_w}", float("nan"))),
+                    "confidence": round(C_val, 3),
+                    "components": comps,
                 }
             except Exception:
-                pass
+                # safe fallback
+                values_blob = {"confidence": round(C_val, 3)}
 
             rows.append({
                 "timestamp": date_stamp,
@@ -364,6 +367,7 @@ def main():
                 "rule_id": "ENTRY_V1",
                 "notes": "",
                 "market_cap": market_caps.get(ticker),
+                "confidence": round(C_val, 4),
             })
 
         if args.echo:
@@ -379,7 +383,6 @@ def main():
     dt = time.time() - t0
     print(f"\nSaved signals → {out_path}  (rows={len(df_out)})")
     print(f"Finished in {dt:.1f}s ({len(rows)} signals, {len(tickers_meta)} tickers, {len(days)} days)")
-
 
 if __name__ == "__main__":
     main()

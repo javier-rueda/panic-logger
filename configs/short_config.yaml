@@ -1,0 +1,53 @@
+timezone: "Europe/Madrid"
+
+universe:
+  watchlist_csv: "data/watchlist.csv"
+
+files:
+  positions_csv: "data/positions.csv"
+  signals_log_csv: "data/signals_log.csv"
+
+data_source:
+  provider: "yfinance"
+  history:
+    period: "220d"
+    interval: "1d"
+
+rules:
+  entry:
+    drop_lookback_days: 3
+    min_drop_pct: 7
+    rsi_period: 2
+    rsi_max_to_buy: 10.0
+    sma_window: 20
+    zscore_max_to_buy: -2.0
+
+  exit:
+    take_profit_pct: 8.0
+    rsi_period: 2
+    rsi_min_to_sell: 70.0
+    sma_window: 20
+
+sizing:
+  portfolio_value: 10000
+  available_cash_pct: 0.30
+  base_risk_per_trade_pct: 0.0075
+  max_cash_per_trade_pct: 0.08
+  max_open_trades: 10
+  allocation_mode: "confidence"   # fixed_cash | confidence | confidence_normalized
+  allocation_reference: "equity"  # portfolio = fixed initial slot; equity = compounding slot
+
+risk_guards:
+  hard_stop_pct: -6.0
+  time_stop_days: 7
+
+logging:
+  print_to_console: true
+
+confidence:
+  weights: {drop: 0.35, rsi: 0.25, zscore: 0.25, volume: 0.15}
+  regime_penalty_below_200dma: 0.8
+  rsi_floor: 2
+  drop_hard_max: -15
+  zscore_hard_min: -4
+  volume_cap: 2.0
